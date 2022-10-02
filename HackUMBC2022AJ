@@ -1,0 +1,130 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<title> ScholarshipsNearMe </title>
+
+</head>
+<style> 
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+
+div.polaroid {
+  width: 30%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+{
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+<body style= "background-color:powderblue;">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+<img src="tree-hack.png" alt="Forest" style="width:5% ; height:3%; border-radius: 8px" img>
+
+      <li class="nav-item">
+
+        <a  class="nav-link active" href="#">Resources</a>
+      </li>
+      <li class="nav-item">
+        <a style= "color: white;" class="nav-link" href="#">Sponsors</a>
+      </li>
+      <li class="nav-item">
+        <a href="file:///C:/Users/anver/OneDrive/Documents/hackathon2022/secondpage.html#" >About Us</a>
+      </li>
+      <li class="nav-item">
+        <a style= "color: white;" class="nav-link " href="#">Home</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+</div>
+
+<h1 style="font-family:Garamond;">Welcome to ScholarshipsNearMe!</h1>
+ 
+
+  <h5 style="font-family:verdana;">This website is geared towards students that need a stable<br>
+ and inclusive plave to find scholarships our site includes <br> scholarships from any organization, club, or school that you <br> qualify for. 
+Please be sure to put in your correct information with <br> any specifications you need to make. 
+Be as specific as possible so <br> that we can find the perfect scholarship for you! </h5>
+
+<div class="row">
+  <div class="column">
+    <img src="pic1.jpg" alt="Snow" style="width:70%; height:70%; border-radius: 50%">
+  </div>
+  <div class="column">
+    <img src="pic2.jpg" alt="Forest" style="width:70% ; height:70%; border-radius: 50%">
+  </div>
+  <div class="column">
+    <img src="pic3.png" alt="Mountains" style="width:70% ; height:70%; border-radius: 50%">
+  </div>
+</div>
+
+
+<div class="polaroid">
+  <img src="grad.jpg" alt="5 Terre" style="width:100%">
+  <div class="container">
+  <a href="file:///C:/Users/anver/OneDrive/Documents/hackathon2022/secondpage.html#">Tell Us About Yourself and Start Applying</a>
+  </div>
+</div>
+
+<div class="polaroid">
+  <img src="grad.jpg" alt="Norther Lights" style="width:100%">
+  <div class="container">
+  <p>Northern Lights</p>
+  </div>
+</div>
+
+
+<footer>
+  <p>Created by Anverly Jones, Gloria Dagrin, and Kelisa Morgan</p>
+</footer> 
+
+
+
+</body>
+
+
+</html>
